@@ -4,7 +4,6 @@ LD = $(SDK_PREFIX)ld
 SIZE = $(SDK_PREFIX)size
 OBJCOPY = $(SDK_PREFIX)objcopy
 
-# Шлях до QEMU — перевірте, щоб він був коректний (прямі слеші замість зворотних!)
 QEMU = /home/io23huranets/opt/xPacks/qemu-arm/xpack-qemu-arm-7.2.0-1/bin/qemu-system-gnuarmeclipse
 
 BOARD ?= STM32F4-Discovery
